@@ -31,4 +31,7 @@ public class Bean {
         }
         return l;
     }
+    public String afficher() {
+        return "affichage_3?nb="+ nombre + "&amp;faces-redirect=true";
+    }
 }
